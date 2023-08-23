@@ -1,0 +1,12 @@
+[run]
+source = 
+    app
+    test
+omit =
+    env/*
+    */test*
+    */__init__.py
+[report]
+    pragma: no cover 
+    def seTup
+    def test_
